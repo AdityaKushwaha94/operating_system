@@ -1,0 +1,32 @@
+Shortest Remaining Time First (SRTF)
+Overview
+Shortest Remaining Time First (SRTF) is a scheduling algorithm that selects the process with the shortest remaining burst time from the ready queue and executes it. If a new process arrives with a shorter burst time than the remaining time of the current executing process, the current process is preempted, and the new process is scheduled.
+
+@Features
+Dynamically selects the process with the shortest remaining burst time.
+Preempts the current executing process if a new process with a shorter burst time arrives.
+@Usage
+Run the srtf.py script using Python.
+Enter task details including task names, arrival times, and burst times in the respective input fields.
+Click on the "Generate Gantt Chart" button to visualize the Gantt chart and schedule table.
+Dependencies
+1.Python 3.x
+2.tkinter (for GUI)
+3.matplotlib (for plotting)
+
+
+Shortest Job First (SJF)
+Overview
+Shortest Job First (SJF) is a scheduling algorithm that selects the process with the smallest burst time from the ready queue and executes it. If multiple processes have the same shortest burst time, SJF can be preemptive or non-preemptive.
+
+Features
+Selects the process with the smallest burst time.
+Can be preemptive or non-preemptive.
+@Usage
+Run the sjf.py script using Python.
+Enter task details including task names and burst times in the respective input fields.
+Click on the "Generate Gantt Chart" button to visualize the Gantt chart and schedule table.
+Dependencies
+Python 3.x
+tkinter (for GUI)
+matplotlib (for plotting)
